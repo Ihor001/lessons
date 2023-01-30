@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Circular Std";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+.description {
+	font-family: "Circular Std", sans-serif;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.history {
+	font-family: "Poppins", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	font-style: oblique;
+	text-align: left;
+	color: black;
+	white-space: nowrap;
+}
+
+.molotov {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 700;
+	font-size: 15px;
+	color: rgba(12, 47, 48, 0.507);
+	line-height: 2.8;
+	text-indent: 30px;
+}
+
+.events {
+	font-family: "Noto";
+	font-weight: 700;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Noto";
+	text-align: justify;
+	text-shadow: 3px 3px 6px rgb(131, 31, 31);
+	text-transform: capitalize;
+}
+
+h2 {
+	font-family: "Noto";
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+
+h3 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.throw {
+	font-family: "Poppins";
+	font-size: 10px;
+	text-decoration: line-through;
+}
+
+.text {
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
