@@ -1,0 +1,138 @@
+@import url(reset.css);
+
+body {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	max-width: 1440px;
+	margin: auto;
+	color: #6c757d;
+}
+
+
+.sub-title {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 80px 0px 15px 312px;
+}
+
+.date,
+.time {
+	margin-right: 25px;
+}
+
+.name {
+	font-weight: 700;
+}
+.title {
+	margin-left: 312px;
+	margin-bottom: 40px;
+}
+
+.first-title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	width: 400px;
+
+	color: #212529;
+}
+
+.text {
+	margin: 0 312px 80px;
+}
+
+.paragraph {
+	margin-bottom: 33px;
+}
+
+.image {
+	margin: 0 100px 80px;
+}
+
+.second-title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	width: 605px;
+
+	color: #212529;
+}
+
+img {
+	display: inline-block;
+}
+
+.second-images {
+	margin-bottom: 80px;
+}
+
+.boat {
+	max-width: 100%;
+	margin-right: 30px;
+}
+
+.nature {
+	width: 605px;
+	height: 400px;
+	max-width: 100%;
+	vertical-align: auto;
+}
+
+.last-text {
+	margin-bottom: 60px;
+}
+
+.text1 {
+	box-sizing: content-box;
+	background-color: purple;
+}
+
+.lorem1 {
+	background-color: aquamarine;
+	overflow: hidden;
+	max-width: 200px;
+	height: 350px;
+}
+
+.lorem2 {
+	background-color: blue;
+	min-width: 400px;
+	height: 80px;
+	overflow: auto;
+}
+
+.lorem {
+	color: black;
+	margin: 0 auto;
+	max-width: 300px;
+	max-height: 315px;
+	background-color: #6c757d;
+	overflow: scroll;
+}
+
+.span1 {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 30px;
+	background-color: yellowgreen;
+}
+
+.pic1 {
+	max-width: 450px;
+	margin-top: 32px;
+}
+.pic2 {
+	max-width: 250px;
+	display: inline;
+	vertical-align: middle;
+	background-color: violet;
+}
+
+.text-inline {
+	display: inline-block;
+	vertical-align: top;
+	background-color: violet;
+}
