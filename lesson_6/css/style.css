@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 300;
+
+	color: #6c757d;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.article {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.article__text-block p {
+	line-height: 1.78;
+	margin-bottom: 30px;
+}
+
+.article__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+.article__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.images {
+	font-size: 0;
+}
+
+.img1 {
+	margin-right: 30px;
+}
+
+a {
+	font-size: 30px;
+	border: dashed;
+}
