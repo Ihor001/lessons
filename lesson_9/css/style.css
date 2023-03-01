@@ -1,0 +1,159 @@
+@import url("reset.css");
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	padding: 25px 15px;
+	outline: 5px solid rgba(175, 71, 71, 0.842);
+	margin: 0 auto;
+}
+
+.icons__container {
+	margin-top: 10px;
+	background: linear-gradient(90deg, rgba(162, 230, 215, 0.76234243697479) 35%, rgba(98, 201, 222, 1) 100%);
+}
+
+.icons__title {
+	font-weight: 700;
+	font-size: 30px;
+	color: blue;
+	padding: 15px 500px;
+}
+
+.icons__description {
+	color: blueviolet;
+	padding: 20px;
+}
+
+.example-icons {
+	color: brown;
+	padding: 20px;
+	text-align: center;
+}
+
+.example-icons img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.example-icons img:not(:last-child) {
+	margin-right: 25px;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.list-icons li:first-child {
+	width: 44px;
+	height: 44px;
+	background: url('../img/svg/building.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(2) {
+	width: 160px;
+	height: 41px;
+	background: url('../img/svg/ayro-uI.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(3) {
+	width: 170px;
+	height: 36px;
+	background: url('../img/svg/graygrids.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(4) {
+	width: 170px;
+	height: 41px;
+	background: url('../img/svg/lineIcons.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(5) {
+	width: 92px;
+	height: 92px;
+	background: url('../img/svg/components-icon.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(6) {
+	width: 92px;
+	height: 92px;
+	background: url('../img/svg/design-icon.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(7) {
+	width: 92px;
+	height: 92px;
+	background: url('../img/svg/fully-icon.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(8) {
+	width: 92px;
+	height: 92px;
+	background: url('../img/svg/regular-icon.svg') center center no-repeat;
+}
+
+.list-icons li:nth-child(9) {
+	width: 92px;
+	height: 92px;
+	background: url('../img/svg/teilwind-icon.svg') center center no-repeat;
+}
+
+.list-icons li:last-child {
+	width: 20px;
+	height: 20px;
+	background: url('../img/svg/arrow-right.svg') center center no-repeat;
+}
+
+.title-design {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+	font-weight: 700;
+	color: rgba(54, 82, 62, 0.87);
+}
+.description-design {
+	padding: 15px;
+	color: rgb(87, 52, 9);
+}
+
+.content__container {
+	margin-bottom: 0;
+}
+
+.design-example {
+	background: url("../img/svg/blue-corner-design.svg") 0 100% no-repeat, url("../img/svg/dark-blue-design.png") 15% 50% no-repeat, url("../img/svg/green-corner-design.svg") 100% 0% no-repeat, url("../img/corner-design.png") 60% 100% no-repeat, url("../img/dotted-design.png") 0 0 no-repeat, url("../img/dotted-small-design.png") 80% 10% no-repeat, url("../img/dotted-smaller-design.png") 35% 35% no-repeat, url("../img/two-colores-design.svg") 50% 50% no-repeat, #9fd854;
+	padding: 150px;
+	border-radius: 20px;
+}
+
+.title-content {
+	text-transform: uppercase;
+	color: red;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 20px;
+}
+.description-content {
+	color: blue;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.images-example img {
+	display: inline-block;
+	border-radius: 30%;
+width: 400px;
+padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+.end {
+	text-align: center;
+	font-size: 12px;
+	padding: 20px;
+}
